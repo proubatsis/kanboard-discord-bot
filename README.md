@@ -13,6 +13,10 @@ kan ls <column-name>
 ```
 
 ```
+kan ls
+```
+
+```
 kan move <task-id> <column-name>
 ```
 

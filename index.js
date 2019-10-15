@@ -10,7 +10,7 @@ const CmdMove = require('./commands/move');
 
 const client = new Discord.Client();
 const CMD_HELP = /^kan\s+help$/;
-const CMD_LS = /^kan\s+ls\s+(.+?)$/;
+const CMD_LS = /^kan\s+ls(?:\s+(.+?))?$/;
 const CMD_MOVE = /^kan\s+move\s+(\d+?)\s+(.+?)$/;
 
 client.on('ready', () => {
