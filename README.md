@@ -20,6 +20,10 @@ kan ls
 kan move <task-id> <column-name>
 ```
 
+```
+kan due <due-in-x-days>
+```
+
 ## Environment Variables
 
 | Environment Variable | Description                                                                         | 
